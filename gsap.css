@@ -47,5 +47,140 @@ nav img{
 }
 #fanta{
 width: 40%;
+z-index: 2;
+position: absolute;
 
+}
+#orange-cut{
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    z-index: 1;
+}
+.one h1{
+   font-size: 20vw;
+   color: #fff;
+}
+#orange{
+    width: 18%;
+    position: absolute;
+    top: 55%;
+    right: 32%;
+    z-index: 3;
+}
+.two{
+    width: 100%;
+    height: 100vh;
+}
+#leaf3{ 
+    width: 20%; 
+    top: 8%;
+    position: absolute;
+   right: -7%;
+   
+}
+#leaf{
+    width: 10%; 
+    position: absolute;
+     top: 60%;
+    left: 60%;
+    right: 10%;
+    transform: rotate(15deg);
+    
+
+}
+#leaf2{
+    width: 10%; 
+    position: absolute;
+    top: 18%;
+    left: 9%;
+    transform: rotate(60deg);
+    
+}
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color:#4d4945;
+    display: flex;
+}
+
+.left-two, .right-two{
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    /* Ensure content is visible within these containers */
+    overflow: hidden; /* Or 'auto' if you expect scrollable content */
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+
+}
+.left-two img{
+    width: 80%;
+    margin-top: 30vh;
+
+}
+.right-two h1{
+    font-size: 5vw;
+    margin-top: 24vh;
+    color: #fff;
+}
+
+.right-two p{
+    font-size: 1vw;
+    color: #fff;
+    margin-top: 5vh;
+    width: 80%;
+}
+.three{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 5vw;
+}
+.card{
+    width: 25vw;
+    height: 70vh;
+    background-color: #fff;
+    margin-top: 10vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+.card h1{
+    font-size: 3vw;
+    margin-top: 30vh;
+}
+.card button{
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
+#coca{
+    top: 15%;
+    position: absolute;
+    width: 17%;
+}
+
+
+#fan{
+    top: 15%;
+    position: absolute;
+    width: 20%;
+}
+#sprite{
+    top: 15%;
+    position: absolute;
+    width: 15%;
 }
